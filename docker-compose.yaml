@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+
+  balancer:
+    build:
+      context: ./balancer-service
+    container_name: balancer
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+    volumes:
+      - ./balancer-service/config.json:/app/config.json
+
+  test-service1:
+    build:
+      context: ./test-service
+    container_name: test-service1
+    hostname: test-service1
+    ports:
+      - "50061:50061"
+    environment:
+      - PORT=50061
+
+  test-service2:
+    build:
+      context: ./test-service
+    container_name: test-service2
+    hostname: test-service2
+    ports:
+      - "50062:50062"
+    environment:
+      - PORT=50062
+
+  test-service3:
+    build:
+      context: ./test-service
+    container_name: test-service3
+    hostname: test-service3
+    ports:
+      - "50063:50063"
+    environment:
+      - PORT=50063

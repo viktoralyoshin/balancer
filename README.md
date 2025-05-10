@@ -33,38 +33,38 @@ Completed 5000 requests
 Finished 5000 requests
 
 
-Server Software:
-Server Hostname:        localhost
-Server Port:            8080
+Server Software:\
+Server Hostname:        localhost\
+Server Port:            8080\
 
-Document Path:          /
+Document Path:          /\
 Document Length:        0 bytes
 
-Concurrency Level:      1000
-Time taken for tests:   5.033 seconds
-Complete requests:      5000
-Failed requests:        0
-Total transferred:      375000 bytes
-HTML transferred:       0 bytes
-Requests per second:    993.41 [#/sec] (mean)
-Time per request:       1006.631 [ms] (mean)
-Time per request:       1.007 [ms] (mean, across all concurrent requests)
-Transfer rate:          72.76 [Kbytes/sec] received
+Concurrency Level:      1000\
+Time taken for tests:   4.913 seconds\
+Complete requests:      5000\
+Failed requests:        0\
+Total transferred:      375000 bytes\
+HTML transferred:       0 bytes\
+Requests per second:    1017.78 [#/sec] (mean)\
+Time per request:       982.533 [ms] (mean)\
+Time per request:       0.983 [ms] (mean, across all concurrent requests)\
+Transfer rate:          74.54 [Kbytes/sec] received
 
 Connection Times (ms)
 min  mean[+/-sd] median   max
-Connect:        0    7  14.6      0      62
-Processing:    64  947 496.3    819    3081
-Waiting:        2  946 496.1    818    3081
-Total:         64  955 499.4    826    3100
+Connect:        0    5  11.2      0     117\
+Processing:    57  933 335.7    901    2106\
+Waiting:        3  932 335.6    901    2106\
+Total:         57  938 340.0    903    2123
 
 Percentage of the requests served within a certain time (ms)
-50%    826
-66%    985
-75%   1079
-80%   1203
-90%   1654
-95%   1988
-98%   2504
-99%   2723
-100%   3100 (longest request)
+50%    903\
+66%   1042\
+75%   1129\
+80%   1191\
+90%   1426\
+95%   1555\
+98%   1766\
+99%   1825\
+100%   2123 (longest request)

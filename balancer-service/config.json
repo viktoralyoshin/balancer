@@ -3,6 +3,9 @@
     "http://test-service1:50061",
     "http://test-service2:50062",
     "http://test-service3:50063",
-    "http://test-service4:50064"
+    "http://test-service4:50064",
+    "http://test-service5:50065",
+    "http://localhost:50066",
+    "http://localhost:50067"
   ]
 }

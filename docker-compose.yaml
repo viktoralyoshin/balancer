@@ -42,3 +42,23 @@ services:
       - "50063:50063"
     environment:
       - PORT=50063
+
+  test-service4:
+    build:
+      context: ./test-service
+    container_name: test-service4
+    hostname: test-service4
+    ports:
+      - "50064:50064"
+    environment:
+      - PORT=50064
+
+  test-service5:
+    build:
+      context: ./test-service
+    container_name: test-service5
+    hostname: test-service5
+    ports:
+      - "50065:50065"
+    environment:
+      - PORT=50065
